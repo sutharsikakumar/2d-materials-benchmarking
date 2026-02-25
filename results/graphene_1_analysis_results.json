@@ -1,0 +1,76 @@
+{
+  "technique": "Raman",
+  "confidence": 60.0,
+  "all_scores": {
+    "Raman": 60.0,
+    "PL (Photoluminescence)": 60.0,
+    "UV-Vis Absorption": 30.0,
+    "FTIR": 0.0,
+    "XPS": 60.0,
+    "XRD": 10.0,
+    "Reflectance Contrast": 35.0,
+    "ARPES": 20.0,
+    "THz Spectroscopy": 25.0
+  },
+  "denoising_method": "Adaptive Gaussian (\u03c3=0.8-2.0) - preserves sharp peaks",
+  "peaks": [
+    {
+      "position": 1595.51,
+      "intensity": 1679.887385612261,
+      "fwhm": 10.577002214329589,
+      "left_half": 1590.01,
+      "right_half": 1601.43,
+      "prominence": 0.8773074200932741,
+      "band_type": "D-prime"
+    },
+    {
+      "position": 2684.5,
+      "intensity": 1276.7406728549788,
+      "fwhm": 35.773190750587716,
+      "left_half": 2668.48,
+      "right_half": 2701.37,
+      "prominence": 0.7345084005612669,
+      "band_type": "2D-band"
+    }
+  ],
+  "material_analysis": {
+    "identified_bands": [
+      {
+        "name": "G-band",
+        "position": 1595.51,
+        "intensity": 1679.887385612261,
+        "fwhm": 10.577002214329589
+      },
+      {
+        "name": "D-prime",
+        "position": 1595.51,
+        "intensity": 1679.887385612261,
+        "fwhm": 10.577002214329589
+      },
+      {
+        "name": "2D-band",
+        "position": 2684.5,
+        "intensity": 1276.7406728549788,
+        "fwhm": 35.773190750587716
+      }
+    ],
+    "material_indicators": [],
+    "quality_metrics": {}
+  },
+  "processing_log": [
+    "\ud83d\udd0d Step 1: Identifying spectroscopy technique...",
+    "\ud83d\udee0\ufe0f  Step 2: Applying Raman-specific denoising...",
+    "   Using adaptive Gaussian smoothing for Raman (\u03c3=0.8-2.0)",
+    "\ud83d\udcca Step 3: Extracting peaks with optimized parameters...",
+    "   Found 2 peaks using Raman-optimized parameters",
+    "\ud83e\uddec Step 4: Performing material-specific analysis...",
+    "\ud83d\udccb Step 5: Generating analysis report...",
+    "\ud83d\udd0d Step 1: Identifying spectroscopy technique...",
+    "\ud83d\udee0\ufe0f  Step 2: Applying Raman-specific denoising...",
+    "   Using adaptive Gaussian smoothing for Raman (\u03c3=0.8-2.0)",
+    "\ud83d\udcca Step 3: Extracting peaks with optimized parameters...",
+    "   Found 2 peaks using Raman-optimized parameters",
+    "\ud83e\uddec Step 4: Performing material-specific analysis...",
+    "\ud83d\udccb Step 5: Generating analysis report..."
+  ]
+}
